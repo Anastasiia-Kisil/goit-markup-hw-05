@@ -257,6 +257,15 @@ body {
   border-radius: 50%;
   background: #FFFFFF;
   border: 1px solid rgba(0, 0, 0, 0.1);
+  transition: background-color 250ms var(--timing-function), fill 250ms var(--timing-function) ;
+}
+.close-btn:hover,
+.close-btn:focus {
+  background-color: red;
+}
+.close-btn:hover .modal-icon,
+.close-btn:focus .modal-icon {
+  fill: var(--back-color);
 }
 
 /* PRINCIPLE */

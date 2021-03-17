@@ -233,6 +233,9 @@ body {
   pointer-events: none;
 }
 .modal {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -241,6 +244,19 @@ body {
   min-height: 581px;
   background-color: var(--back-color);
 
+}
+.close-btn {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 /* PRINCIPLE */
